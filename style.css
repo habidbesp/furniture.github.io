@@ -2,12 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* bootstrap-icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
 body {
   font-family: "Noto Serif", serif;
 }
 
-#my-navbar {
-  color: purple;
+.bg-light {
+  transition: 500ms ease;
+  background-color: transparent !important;
+}
+
+.bg-light.scrolled {
+  background-color: rgba(248, 249, 250, 0.9) !important;
+}
+
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .hero-image {
@@ -22,12 +32,66 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-style: italic;
+  line-height: 11rem;
 }
+
+/* animation h1 starts */
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* animation h1 ends */
 
 h2 {
   text-align: center;
   font-style: italic;
   font-size: 2.5rem;
+}
+
+.arrow-right,
+.arrow-left {
+  font-size: 3rem;
+  color: rgba(109, 88, 54, 0.8);
+}
+
+.arrow-right ::after {
+  content: "scroll right";
+  display: block;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.arrow-left::after {
+  content: "scroll left";
+  display: block;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 .example {
@@ -38,16 +102,27 @@ footer div ul li a {
   font-size: 1.7rem;
 }
 
-/* bootstrap settings starts */
-.card,
-.btn {
-  border-radius: unset;
+.footer-item {
+  padding-left: 1.5rem;
 }
+
+.shadow-drop-2-center {
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.shadow-drop-2-center:hover {
+  -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+/* bootstrap settings starts */
 
 .card {
   border: none;
 }
 
+.btn,
+.card,
 .card-img,
 .card-img-top {
   border-radius: unset;
@@ -69,6 +144,7 @@ footer div ul li a {
 @media (max-width: 576px) {
   h1 {
     font-size: 4rem;
+    line-height: unset;
   }
 }
 
@@ -93,5 +169,5 @@ footer div ul li a {
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (min-width: 1199.98px) {
+@media (min-width: 1200px) {
 }
