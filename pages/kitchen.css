@@ -5,6 +5,31 @@ body {
   font-family: "Noto Serif", serif;
 }
 
+.bg-light {
+  background-color: rgb(109, 88, 54) !important;
+}
+/* navbar changes start */
+.navbar-brand {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(109, 88, 54) !important;
+}
+
+.dropdown-item:hover {
+  background-color: unset;
+}
+
+.nav-color a {
+  color: white !important;
+}
+
+.nav-color a:hover {
+  color: black !important;
+}
+
+/* navbar changes end */
 .card {
   border: none;
 }
