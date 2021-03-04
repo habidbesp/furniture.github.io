@@ -3,12 +3,10 @@
 /* bootstrap-icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
-
-
 /* unversal style ----------general------------*/
 
 .bg-light {
-    background-color: rgb(109, 88, 54) !important;
+  background-color: rgb(109, 88, 54) !important;
 }
 
 body {
@@ -21,7 +19,6 @@ h1 {
 }
 
 /* unversal style ----------general---------end---*/
-
 
 /* universal styles--------------shop------------- */
 
@@ -57,34 +54,89 @@ h1 {
 
 /* universal styles---------------shop------------end */
 
-
 /* bathroom-product -----------------------------------*/
 
+/* this comment is from Habid to Daniel: your buttons are not working properly with the selection you just add, below your comented code I'll correct it  */
+
+/* your code start */
+/* .card a {
+  color: black;
+  text-decoration: none;
+} */
+
+/* .card a:hover {
+  color: black;
+  text-decoration: none;
+} */
+
+/* your code end */
+
+/* correction start */
+
+.card h5,
+.card p {
+  color: black;
+  text-decoration: none;
+}
+
+.card:hover h5,
+.card:hover p {
+  color: black;
+  text-decoration: none;
+}
+
 .card a {
-    color: black;
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.card a:hover {
-    color: black;
-    text-decoration: none;
+/* correction end */
+
+/* border dropdown menu deleted start */
+.dropdown-menu {
+  border: none;
 }
-
-
+/* border dropdown menu deleted end */
 
 .navbar-brand {
-    color: white !important;
-  }
-  .dropdown-menu {
-    background-color: rgb(109, 88, 54) !important;
-  }
-  .dropdown-item:hover {
-    background-color: unset;
-  }
-  .nav-color a {
-    color: white !important;
-  }
-  .nav-color a:hover {
-    color: black !important;
+  color: white !important;
+}
+.dropdown-menu {
+  background-color: rgb(109, 88, 54) !important;
+}
+.dropdown-item:hover {
+  background-color: unset;
+}
+.nav-color a {
+  color: white !important;
+}
+.nav-color a:hover {
+  color: black !important;
+}
+
+/* responsive sidebar strats */
+.sidebar-responsive li a {
+  color: white !important;
+}
+
+.sidebar-responsive li a:hover {
+  color: black !important;
+}
+
+.dropdown-divider {
+  display: none;
+}
+
+.sidebar-responsive {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .dropdown-divider {
+    display: revert;
   }
 
+  .sidebar-responsive {
+    display: revert;
+  }
+}
+/* responsive sidebar ends */
