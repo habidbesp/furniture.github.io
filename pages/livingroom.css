@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+    font-family: "Noto Serif", serif;
+}
+
+/* nav {
+    background-color: #fff;
+} */
+
+.bg-light {
+    background-color: rgb(109, 88, 54) !important;
+  }
+
+  /* navbar changes  */
+.navbar-brand {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(109, 88, 54) !important;
+}
+
+.dropdown-item:hover {
+    background-color: unset;
+  }
+  .nav-color a {
+    color: white !important;
+  }
+  .nav-color a:hover {
+    color: black !important;
+  }
+  /* navbar changes end */
+  
+  /* .bg-light.scrolled {
+    background-color: rgba(248, 249, 250, 0.9) !important;
+  } */
+
+.card {
+    border: none;
+  }
+  
+  .btn,
+  .card,
+  .card-img,
+  .card-img-top {
+    border-radius: unset;
+  }
+  
+.btn-outline-secondary {
+  color: rgba(109, 88, 54, 0.8);
+  border-color: rgba(109, 88, 54, 0.8);
+}
+  
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: rgba(109, 88, 54, 0.8);
+  border-color: rgba(109, 88, 54, 0.8);
+}
+  
+.nav-item .nav-link {
+  color: rgba(109, 88, 54, 0.8);
+}
+  
+.nav-item .nav-link:hover {
+  color: black;
+}
+
+footer div ul li a {
+  font-size: 1.7rem;
+}
+  
+.footer-item {
+  padding-left: 1.5rem;
+  color: white;
+}
