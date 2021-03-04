@@ -10,299 +10,268 @@
     <title>Document</title>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 sticky-top">
+      <a class="navbar-brand" href="../index.html">Erbwerk</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 sticky-top">
-            <a class="navbar-brand" href="../index.html">Erbwerk</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown nav-color">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+                <a class="dropdown-item" href="./kitchen.html">Kitchen</a>
+                <a class="dropdown-item" href="./bathroom.html">Bathroom</a>
+                <a class="dropdown-item" href="./bedroom.html">Bedroom</a>
+              </div>
+            </li>
+            <li class="nav-item nav-color">
+              <a class="nav-link" href="../index.html#gallery">Gallery</a>
+            </li>
+            <li class="nav-item nav-color">
+              <a class="nav-link" href="../index.html#contact">Contact Us</a>
+            </li>
+        </ul>
+        <!-- responsive sidebar in small devices starts -->
+        <div class="dropdown-divider"></div>
+        <ul class="nav flex-column sidebar-responsive">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Living Room <span class="sr-only">(current)</span></a>
+          </li>
+              
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kitchen</a>                         
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bathroom</a>
+          </li>    
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item dropdown nav-color">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Products
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  
-                      <a class="dropdown-item" href="./kitchen.html">Kitchen</a>
-                      <a class="dropdown-item" href="./bathroom.html">Bathroom</a>
-                      <a class="dropdown-item" href="./bedroom.html">Bedroom</a>
-                    </div>
-                  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bedroom</a>
+          </li>    
+        </ul>
+        <!-- responsive sidebar in small devices ends -->
+      </div>
+    </nav>
 
-                  <li class="nav-item nav-color">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                <li class="nav-item nav-color">
-                  <a class="nav-link" href="#gallery">Gallery</a>
-                </li>
-                
-              </ul>
-            </div>
-          </nav>
-    
-    
-        
-    <div class="example pb-">
-        <div class="container-fluid">
-            <!-- <h2 class="pt-5 pb-4 text-white">Gallery</h2> -->
-            <div class="row">
-                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
-                    <div class="position-fixed pt-3">
-                      <ul class="nav flex-column">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">Living Room <span class="sr-only">(current)</span></a>
-                        </li>
-                            
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Kitchen</a>                         
-                        </li>
-
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Bathroom</a>
-                        </li>    
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+                <div class="position-fixed pt-3">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Living Room <span class="sr-only">(current)</span></a>
+                    </li>
                         
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Bedroom</a>
-                        </li>    
-                          
-                        <!-- <li class="nav-item">
-                          <a class="nav-link" href="#">Reports</a>  
-                        </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Kitchen</a>                         
+                    </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Integrations</a>
-                        </li> -->
-                      </ul>      
-
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Bathroom</a>
+                    </li>    
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Bedroom</a>
+                    </li>    
                       
-                      </ul>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Reports</a>  
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Integrations</a>
+                    </li> -->
+                  </ul>    
+                </div>
+              </nav>
+              <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Living Room</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                      <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Contempoary</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Vintage</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">New Releases</button>
+                      </div>
                     </div>
-                  </nav>
-                  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-                    
-                            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                                <h1 class="h2">Living Room</h1>
-                                <div class="btn-toolbar mb-2 mb-md-0">
-                                  <div class="btn-group mr-2">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contempoary</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Vintage</button>
-                                  </div>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">New Releases</button>
-                                </div>
-                              </div>                          
+                  </div>                          
 
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li1.jpg" alt="White Living room set">
-                                        <div class="card-body">
-                                          <h5 class="card-title">White Sofa Set</h5>
-                                          <p class="card-text">€1,599</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li2.jpg" alt="Charcol 2 seater sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Charcol 2 seater sofa</h5>
-                                          <p class="card-text">€800</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li3.jpg" alt="Charcol 3 seater sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Charcol 3 seater sofa</h5>
-                                          <p class="card-text">€1,200</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-
-                  
-
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li1.jpg" alt="White Living room set">
+                            <div class="card-body">
+                              <h5 class="card-title">White Sofa Set</h5>
+                              <p class="card-text">€1,599</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
                             </div>
-                            
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li4.jpg" alt="Luxe Brown Leather 3 seater Sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Luxe Brown Leather 3 seater Sofa</h5>
-                                          <p class="card-text">€2,299</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li5.jpg" alt="Yellow 2 seater sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Yellow 2 seater sofa</h5>
-                                          <p class="card-text">€1,600</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li6.jpg" alt="Crushed velvet Golden 2 seater sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Crushed velvet Golden 2 seater sofa</h5>
-                                          <p class="card-text">€1,200</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-
-                  
-
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li2.jpg" alt="Charcol 2 seater sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">Charcol 2 seater sofa</h5>
+                              <p class="card-text">€800</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
                             </div>
-
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li7.jpg" alt="White and blue 2 seater sofa">
-                                        <div class="card-body">
-                                          <h5 class="card-title">White and blue 2 seater sofa</h5>
-                                          <p class="card-text">€1,300</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li8.jpg" alt="Sleek white 6 seater sofa set">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Sleek white 6 seater sofa set</h5>
-                                          <p class="card-text">€3,500</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li9.jpg" alt="Metal & Wood coffee table">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Metal & Wood coffee table</h5>
-                                          <p class="card-text">€900</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-
-                  
-
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li3.jpg" alt="Charcol 3 seater sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">Charcol 3 seater sofa</h5>
+                              <p class="card-text">€1,200</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
                             </div>
-
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li10.jpg" alt="White 8 seater dining table with blue chairs">
-                                        <div class="card-body">
-                                          <h5 class="card-title">White 8 seater dining table with blue chairs</h5>
-                                          <p class="card-text">€2,600</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li11.jpg" alt="Wooden Floating shelves">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Wooden Floating shelves</h5>
-                                          <p class="card-text">€100</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li12.jpg" alt="Wooden shelf system">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Wooden shelf system</h5>
-                                          <p class="card-text">€800</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-
-                  
-
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li4.jpg" alt="Luxe Brown Leather 3 seater Sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">Luxe Brown Leather 3 seater Sofa</h5>
+                              <p class="card-text">€2,299</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
                             </div>
-
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li13.jpg" alt="White Metal shelves">
-                                        <div class="card-body">
-                                          <h5 class="card-title">White Metal shelves</h5>
-                                          <p class="card-text">90</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li14.jpg" alt="Wooden Library Shelves With lights">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Wooden Library Shelves With lights</h5>
-                                          <p class="card-text">€1,899</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card mb-3">
-                                        <img class="card-img-top" src="../images/li15.jpg" alt="Golden Wire shelves system">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Golden Wire shelves system</h5>
-                                          <p class="card-text">€100</p>
-                                          <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-
-                  
-
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li5.jpg" alt="Yellow 2 seater sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">Yellow 2 seater sofa</h5>
+                              <p class="card-text">€1,600</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
                             </div>
-                    
-                </main>
-
-            </div>
-        </div>
-    
-        <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="d-flex justify-content-end w-100" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto flex-row">
-                <li class="footer-item">
-                  <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li class="footer-item">
-                    <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
-                  </li>
-                  <li class="footer-item">
-                    <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
-                  </li>
-              </ul>
-            </div>
-          </footer>
-
-
-
-
-
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li6.jpg" alt="Crushed velvet Golden 2 seater sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">Crushed velvet Golden 2 seater sofa</h5>
+                              <p class="card-text">€1,200</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li7.jpg" alt="White and blue 2 seater sofa">
+                            <div class="card-body">
+                              <h5 class="card-title">White and blue 2 seater sofa</h5>
+                              <p class="card-text">€1,300</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li8.jpg" alt="Sleek white 6 seater sofa set">
+                            <div class="card-body">
+                              <h5 class="card-title">Sleek white 6 seater sofa set</h5>
+                              <p class="card-text">€3,500</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li9.jpg" alt="Metal & Wood coffee table">
+                            <div class="card-body">
+                              <h5 class="card-title">Metal & Wood coffee table</h5>
+                              <p class="card-text">€900</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li10.jpg" alt="White 8 seater dining table with blue chairs">
+                            <div class="card-body">
+                              <h5 class="card-title">White 8 seater dining table with blue chairs</h5>
+                              <p class="card-text">€2,600</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li11.jpg" alt="Wooden Floating shelves">
+                            <div class="card-body">
+                              <h5 class="card-title">Wooden Floating shelves</h5>
+                              <p class="card-text">€100</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li12.jpg" alt="Wooden shelf system">
+                            <div class="card-body">
+                              <h5 class="card-title">Wooden shelf system</h5>
+                              <p class="card-text">€800</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li13.jpg" alt="White Metal shelves">
+                            <div class="card-body">
+                              <h5 class="card-title">White Metal shelves</h5>
+                              <p class="card-text">90</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li14.jpg" alt="Wooden Library Shelves With lights">
+                            <div class="card-body">
+                              <h5 class="card-title">Wooden Library Shelves With lights</h5>
+                              <p class="card-text">€1,899</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="../images/li15.jpg" alt="Golden Wire shelves system">
+                            <div class="card-body">
+                              <h5 class="card-title">Golden Wire shelves system</h5>
+                              <p class="card-text">€100</p>
+                              <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>            
+            </main>
+         </div>
+    </div>
+  <!-- <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="d-flex justify-content-end w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto flex-row">
+          <li class="footer-item">
+            <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="footer-item">
+              <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="footer-item">
+              <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+        </ul>
+      </div>
+    </footer> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>

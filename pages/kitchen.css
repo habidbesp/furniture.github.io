@@ -59,3 +59,44 @@ body {
 .nav-item .nav-link:hover {
   color: black;
 }
+
+/* h1 styles starts */
+h1 {
+  font-style: italic;
+  line-height: 11rem;
+}
+/* h1 styles ends */
+
+/* border dropdown menu deleted start */
+.dropdown-menu {
+  border: none;
+}
+/* border dropdown menu deleted end */
+
+/* responsive sidebar strats */
+.sidebar-responsive li a {
+  color: white !important;
+}
+
+.sidebar-responsive li a:hover {
+  color: black !important;
+}
+
+.dropdown-divider {
+  display: none;
+}
+
+.sidebar-responsive {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .dropdown-divider {
+    display: revert;
+  }
+
+  .sidebar-responsive {
+    display: revert;
+  }
+}
+/* responsive sidebar ends */
