@@ -8,7 +8,7 @@
 * [Habid](https://github.com/habidbesp)
 
 
-## See the prsentation of this proyect
+## See the presentation of this proyect
 
 [Click Hier](https://docs.google.com/presentation/d/1t8RFuAC9pwvoMDvlTQlTwUdHDFjySqnEcg-StTgCJTI/edit#slide=id.gc5c18b004a_2_50)
 
