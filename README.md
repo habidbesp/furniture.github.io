@@ -1,4 +1,4 @@
-# Group Proyect "Erbwerk - Our furniturestore"
+# Group Project "Erbwerk - Our furniturestore"
 
 ## Collaborators:
 
